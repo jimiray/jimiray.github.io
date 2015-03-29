@@ -269,3 +269,11 @@ ul.social li {
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
 }
+
+/* REsume */
+
+div.resume ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
