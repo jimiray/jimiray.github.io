@@ -168,6 +168,11 @@ a.sidebar-nav-item:focus {
 }
 
 
+.post-title {
+  font-family: 'Inika', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
 
 /*
  * Themes
