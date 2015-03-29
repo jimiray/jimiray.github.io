@@ -170,8 +170,10 @@ a.sidebar-nav-item:focus {
 
 .post-title {
   font-family: 'Inika', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inika', sans-serif;
 }
 
 /*
