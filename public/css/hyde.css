@@ -176,6 +176,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Inika', sans-serif;
 }
 
+ul.social {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+ul.social li {
+  float: left;
+}
+
 /*
  * Themes
  *
