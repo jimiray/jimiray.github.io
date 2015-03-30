@@ -115,6 +115,20 @@ a.sidebar-nav-item:focus {
   }
 }
 
+@media screen and (min-width: 0px) and (max-width: 48em) {
+  .sidebar ul.social {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    padding-left: 5px;
+  }
+  .sidebar .copywright {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    padding-right: 5px;
+  }
+}
 
 /* Container
  *
@@ -272,7 +286,7 @@ ul.social li {
 
 /* REsume */
 
-div.resume ul {
+div.resume ul.skills {
   list-style-type: none;
   padding-left: 0px;
   margin-left: 0px;

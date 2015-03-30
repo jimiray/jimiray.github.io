@@ -1,5 +1,5 @@
 ---
-layout: resume
+layout: page
 title: Resume
 ---
 ## Profile
@@ -7,14 +7,16 @@ Senior Ruby / Ruby on Rails architect / developer with 10 years experience.
 
 ## Technical Skills
 
-* **Full Stack Web Development:** Ruby on Rails, Phoenix, Chicago Boss
-* **Programming Languages:** Ruby, Javascript, Coffeescript, Clojure, Elixir, R, C
-* **Testing Frameworks:** Rspec, Test::Unit, MiniTest, Capybara, Cucumber
-* **Javascript Frameworks:** Backbone, Can.js, Ember
-* **Databases:** MySQL, Postgresql, Redis, MongoDB, Riak
-* **DevOps/System Administration:** AWS, Rackspace, Heroku, Ubuntu, CentOS, Chef
-* **Lean / Agile Development:** Pivotal Tracker, Trell9
-* **Other Technologies:** Memcached, Sendgrid, Mandrill, Google Analytics
+<ul class='skills'>
+  <li><strong>Full Stack Web Development:</strong> Ruby on Rails, Phoenix, Chicago Boss
+  <li><strong>Programming Languages:</strong> Ruby, Javascript, Coffeescript, Clojure, Elixir, R, C</li>
+  <li><strong>Testing Frameworks:</strong> Rspec, Test::Unit, MiniTest, Capybara, Cucumber</li>
+  <li><strong>Javascript Frameworks:</strong> Backbone, Can.js, Ember</li>
+  <li><strong>Databases:</strong> MySQL, Postgresql, Redis, MongoDB, Riak</li>
+  <li><strong>DevOps/System Administration:</strong> AWS, Rackspace, Heroku, Ubuntu, CentOS, Chef</li>
+  <li><strong>Lean / Agile Development:</strong> Pivotal Tracker, Trello</li>
+  <li><strong>Other Technologies:</strong> Memcached, Sendgrid, Mandrill, Google Analytics</li>
+</ul>
 
 ## Work History
 

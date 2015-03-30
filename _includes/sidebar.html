@@ -10,7 +10,7 @@
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Blog</a>
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
@@ -20,27 +20,27 @@
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.title != null %}
-          {% if node.layout == "page" %}
+          {% if node.layout == "page" || node.layout == "resume" %}
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
       {% endfor %}
+      <ul class='social'>
+        <li>
+          <a href="https://github.com/jimiray"><i class="fa fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/jimiray/en"><i class="fa fa-linkedin"></i></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/jimiray"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/jimiray"><i class="fa fa-instagram"></i></a>
+        </li>
+      </ul>
     </nav>
-    <ul class='social'>
-      <li>
-        <a href="https://github.com/jimiray"><i class="fa fa-github"></i></a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/jimiray/en"><i class="fa fa-linkedin"></i></a>
-      </li>
-      <li>
-        <a href="https://twitter.com/jimiray"><i class="fa fa-twitter"></i></a>
-      </li>
-      <li>
-        <a href="https://instagram.com/jimiray"><i class="fa fa-instagram"></i></a>
-      </li>
-    </ul>
 
-    <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
+    <p class='copywright'>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
   </div>
 </div>
