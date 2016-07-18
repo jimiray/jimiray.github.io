@@ -74,3 +74,11 @@ Provide development services for multiple clients including Factory Labs, Honest
 - Developed a POS integration API using Ruby on Rails and REST for 360 degrees reservation system andcollection of sales ticket data
 - Implemented SQL / NoSQL, MapReduce technologies to produce reports of reservation and ticket data for end users.
 - Implemented Amazon AWS EC2 / S3 systems architecture using Chef
+
+### Formal Education
+
+- US Navy Basic Electricity and Electronics Self Guided Course - 1986
+- US Navy Electronics Technician A School - 1987
+- US Navy Naval Communiations Systems C School - 1988
+- US Navy Precision Approach Radar School - 1991
+- US Navy Microminiature (2M) Repair - 1992
