@@ -4,20 +4,20 @@ Senior Development Leader with 12 years experience developing web applications, 
 
 ## Technical Skills
 
-**Full Stack Web Development:** Ruby on Rails, Sinatra, Phoenix<br />
-**Programming Languages:** Ruby, JavaScript, Coffeescript, Clojure, Elixir<br />
-**Testing Frameworks:** Rspec, Test::Unit, MiniTest, Capybara, Cucumber<br />
-**JavaScript Frameworks:** React, React Native, Backbone<br />
-**Databases:** MySQL, PostgreSQL, Redis, MongoDB, ReThinkDB, Cassandra<br />
-**Analytics:** StatsD, Graphite, Google Analytics<br />
-**DevOps/System Administration:** AWS, Rackspace, Heroku, Ubuntu, CentOS, Chef<br />
+**Full Stack Web Development:** Ruby on Rails, Sinatra<br />
+**Programming Languages:** Ruby, JavaScript, Coffeescript<br />
+**Testing Frameworks:** Rspec, Test::Unit, Capybara, Cucumber<br />
+**JavaScript Frameworks:** Backbone, React<br />
+**Databases:** MySQL, PostgreSQL, Redis, MongoDB<br />
+**Analytics:** StatsD, Graphite, Google Analytics, Instrumental<br />
+**DevOps/System Administration:** AWS, Heroku, Ubuntu, CentOS, Chef<br />
 **Lean / Agile Development:** Pivotal Tracker, Trello, Jira<br />
 **Other Technologies:** Memcached, SendGrid, Mandrill<br />
 
 
 ## Work History
 
-### Technical Lead, CaptainU (07/2014 - Present)
+### Development Director, CaptainU (07/2014 - Present)
 
 - Led squad of 6 junior and mid level developers in maintenance, improvment and development of new features by:
     - Increasing test coverage from 50% to greater than 80%
@@ -26,7 +26,7 @@ Senior Development Leader with 12 years experience developing web applications, 
 - Designed and implemented a developer mentoring process that included techincal talks, bi-weekly check-ins, and quarterly focus surveys
 - Spearheaded hiring of 6 Turing graduates, and 3 former Turing / Gschool students
 - Architected and planned update to an 8 year old codebase to modern standards and technoologies, such as ElasticSearch, hexagonal Rails architecture, modernized rspec tests, and cleaing of cruft
-- Lead 2 architecutral spikes with teams of 2-3 to convert existing code into 2 new products, each providing new revenue streams
+- Lead 5 architecutral spikes with teams of 2-3 to convert existing code into 2 new products, each providing new revenue streams
 - Research and identify technologies that could be useful for our team and new products
 
 ### VP of Engineering, Big Astronaut (07/2013 -08/2014)
