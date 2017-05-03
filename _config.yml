@@ -23,3 +23,8 @@ version:          2.1.0
 
 github:
   repo:           https://github.com/jimiray/jimiray.github.io
+
+description: 
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-slate
