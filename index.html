@@ -1,24 +1,18 @@
 <html>
   <head>
-    <style>
-      body {
-        font-size: 12px;
-        background: url("https://www.spacejam.com/archive/spacejam/movie/img/bg_stars.gif");
-        background-repeat:   repeax-x;
-      }
-      span#blinker { text-decoration: blink; }
-      h1 { margin-top: 400px;  text-align: center; font-size: 5.5em; color: yellow; }
-
-    </style>
-    <script type="text/javascript">
-      var blink_speed = 500;
-      var t = setInterval(function () {
-        var ele = document.getElementById('blinker');
-        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
-      }, blink_speed);
-    </script>
+    <link rel = "stylesheet" type = "text/css" href = "css/base.css" />
+    <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+    <script type="text/javascript" src="javascript/90s.js"></script>
   </head>
   <body>
-    <h1><span id="blinker">I AM JIMIRAY</span></h1>
+    <h1 id="blinker">jimiray.dev</h1>
+    <h3>I remember when the web was fun!</h3>
+    <div id="links">
+      <a href="resume.pdf">Resume</a>
+      &nbsp;|&nbsp;
+      <a href="pix">Pix</a>
+      &nbsp;|&nbsp;
+      <a href="blog">Blog</a>
+    </div>
   </body>
 </html>

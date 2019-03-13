@@ -1,0 +1,36 @@
+body {
+  font-size: 12px;
+  background: url("https://www.spacejam.com/archive/spacejam/movie/img/bg_stars.gif");
+  background-repeat:   repeax-x;
+}
+div#center {
+  text-align: center;
+}
+h1#blinker {
+  font-family: 'Molle', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  text-decoration: blink;
+  font-size: 5.5em;
+  color: yellow;
+  text-shadow: 2px 2px 2px fuchsia;
+  text-transform: capitalize;
+}
+h3 {
+  text-align: center;
+  color: yellow;
+  font-size: 4em;
+}
+div#links {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 2.5em;
+  color: yellow;
+}
+div#links a {
+  color: yellow;
+}
+div#links a:hover {
+  color: fuchsia;
+
+}
