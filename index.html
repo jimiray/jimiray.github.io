@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <style>
+      body {
+        font-size: 12px;
+        background: url("https://www.spacejam.com/archive/spacejam/movie/img/bg_stars.gif");
+        background-repeat:   repeax-x;
+      }
+      span#blinker { text-decoration: blink; }
+      h1 { margin-top: 400px;  text-align: center; font-size: 5.5em; color: yellow; }
+
+    </style>
+    <script type="text/javascript">
+      var blink_speed = 500;
+      var t = setInterval(function () {
+        var ele = document.getElementById('blinker');
+        ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+      }, blink_speed);
+    </script>
+  </head>
+  <body>
+    <h1><span id="blinker">I AM JIMIRAY</span></h1>
+  </body>
+</html>
